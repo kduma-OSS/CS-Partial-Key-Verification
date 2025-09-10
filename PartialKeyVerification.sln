@@ -1,60 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialKeyVerificationLibrary.Tests", "PartialKeyVerificationLibrary.Tests\PartialKeyVerificationLibrary.Tests.csproj", "{A4D46C05-914B-4F9E-9870-5CA590EB865C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88F9BF82-9711-4463-B3A3-F3DBB6AEB606}"
-	ProjectSection(SolutionItems) = preProject
-		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
-		PartialKeyVerification.vsmdi = PartialKeyVerification.vsmdi
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialKeyVerificationLibrary.Verificator", "PartialKeyVerificationLibrary.Verificator\PartialKeyVerificationLibrary.Verificator.csproj", "{A545CC9C-1EA0-42FA-B30B-285F7CD8F652}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialKeyVerificationLibrary.Generator", "PartialKeyVerificationLibrary.Generator\PartialKeyVerificationLibrary.Generator.csproj", "{917B17DB-2815-47AE-8689-95F8B99138A3}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.8.23:8080/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = PartialKeyVerificationLibrary.Generator\\PartialKeyVerificationLibrary.Generator.csproj
-		SccProjectTopLevelParentUniqueName1 = PartialKeyVerification.sln
-		SccProjectName1 = PartialKeyVerificationLibrary.Generator
-		SccLocalPath1 = PartialKeyVerificationLibrary.Generator
-		SccProjectUniqueName2 = PartialKeyVerificationLibrary.Tests\\PartialKeyVerificationLibrary.Tests.csproj
-		SccProjectTopLevelParentUniqueName2 = PartialKeyVerification.sln
-		SccProjectName2 = PartialKeyVerificationLibrary.Tests
-		SccLocalPath2 = PartialKeyVerificationLibrary.Tests
-		SccProjectUniqueName3 = PartialKeyVerificationLibrary.Verificator\\PartialKeyVerificationLibrary.Verificator.csproj
-		SccProjectTopLevelParentUniqueName3 = PartialKeyVerification.sln
-		SccProjectName3 = PartialKeyVerificationLibrary.Verificator
-		SccLocalPath3 = PartialKeyVerificationLibrary.Verificator
-		SccProjectUniqueName4 = KeyGenerator.Desktop.Setup\\Setup.KeyGen.vdproj
-		SccProjectTopLevelParentUniqueName4 = PartialKeyVerification.sln
-		SccProjectName4 = KeyGenerator.Desktop.Setup
-		SccLocalPath4 = KeyGenerator.Desktop.Setup
-		SccProjectUniqueName5 = DemoApplication.Mobile\\DemoApplication.Mobile.csproj
-		SccProjectTopLevelParentUniqueName5 = PartialKeyVerification.sln
-		SccProjectName5 = DemoApplication.Mobile
-		SccLocalPath5 = DemoApplication.Mobile
-		SccProjectUniqueName6 = KeyGenerator.Desktop\\KeyGenerator.Desktop.csproj
-		SccProjectTopLevelParentUniqueName6 = PartialKeyVerification.sln
-		SccProjectName6 = KeyGenerator.Desktop
-		SccLocalPath6 = KeyGenerator.Desktop
-		SccProjectUniqueName7 = KeyGenerator.DataLayer\\KeyGenerator.DataLayer.csproj
-		SccProjectTopLevelParentUniqueName7 = PartialKeyVerification.sln
-		SccProjectName7 = KeyGenerator.DataLayer
-		SccLocalPath7 = KeyGenerator.DataLayer
-		SccProjectUniqueName8 = KeyGenerator.Database\\KeyGenerator.Database.dbproj
-		SccProjectTopLevelParentUniqueName8 = PartialKeyVerification.sln
-		SccProjectName8 = KeyGenerator.Database
-		SccLocalPath8 = KeyGenerator.Database
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = PartialKeyVerification.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Default|Any CPU = Default|Any CPU
@@ -82,5 +37,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5135DAC-8279-4994-B9FA-4EE8BA57D4B6}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PartialKeyVerification.vsmdi
 	EndGlobalSection
 EndGlobal
